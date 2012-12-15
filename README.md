@@ -2,7 +2,7 @@
 
 Sparkler
 ========
-A Python 3 client for Spark API: http://sparkplatform.com/docs/overview/api
+A Python 3 client for Spark API: http://sparkplatform.com/docs/overview/api 
 
 Installation
 ========
