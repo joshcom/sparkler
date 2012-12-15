@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/joshcom/sparkler.png?branch=master)](https://travis-ci.org/joshcom/sparkler)
+[![Build Status](https://travis-ci.org/joshcom/sparkler.png)](https://travis-ci.org/joshcom/sparkler)
 
 Sparkler
 ========
