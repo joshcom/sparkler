@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/joshcom/sparkler.png?branch=master)](https://travis-ci.org/joshcom/sparkler)
+
 Sparkler
 ========
 A Python 3 client for Spark API: http://sparkplatform.com/docs/overview/api
@@ -27,6 +29,10 @@ Usage Examples
 
     try:
         listings = client.get("listings")
+        # Or...
+        # contact  = client.post("contacts", {"DisplayName": "Joshua Murray", "PrimaryEmail": "me@example.com"})
+        # contact  = client.put("/contacts/20100000000000000000000000", {"DisplayName": "Joshua Murphy"})
+        # response = client.delete("/contacts/20100000000000000000000000")
     except sparkler.exceptions.ApplicationUnauthorizedException:
         print("Go here and get your code: %s"  % client.auth.authorization_uri())
         print("Send that code to client.auth.grant('CODE')")
